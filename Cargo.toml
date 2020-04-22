@@ -1,0 +1,12 @@
+[package]
+name = "wasm-image"
+version = "0.1.0"
+description = "wasm-image"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/dkakinoki/wasm-image"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
